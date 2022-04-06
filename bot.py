@@ -20,19 +20,4 @@ async def afk(ctx):
          await ctx.author.edit(nick=x+current_nick)
     await ctx.channel.purge(limit=1)
 
-
 client.run('enter token here')
-
-
-
-
-
-
-
-
-
-
-
-
-
-

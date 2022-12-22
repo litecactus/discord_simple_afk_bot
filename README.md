@@ -5,4 +5,10 @@ Send .afk and it will prefix your nickname with [AFK] . If you send .afk again i
 
 You need the discord.py module installed > https://pypi.org/project/discord.py/
 
-updated 06/04/2022
+**pip install discord.py**
+
+Run on boot with crontab with
+
+**@reboot python3 /home/user/bot.py &**
+
+updated 22/12/2022

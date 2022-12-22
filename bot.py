@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 global x
 x = "[AFK] "
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 client = commands.Bot(command_prefix = '.', intents=intents)
 
 @client.event
